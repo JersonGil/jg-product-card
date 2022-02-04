@@ -32,8 +32,7 @@ export const ProductCard = ({
   onChange,
   children,
 }: Props) => {
-  const { counter, increaseBy, maxCounter, isMaxCountReach, reset } =
-    useProducts({
+  const { counter, increaseBy, maxCounter, isMaxCountReach, reset } = useProducts({
       onChange,
       product,
       value,
